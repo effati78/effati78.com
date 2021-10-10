@@ -1,1 +1,0 @@
-# effati78.com
