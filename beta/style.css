@@ -32,7 +32,6 @@ body {
 
 .button {
 	position: relative;
-	transform: rotate(-10deg);
 	color: #cc00ff;
 	text-transform: uppercase;
 	opacity: 0;
@@ -106,6 +105,5 @@ h1 {
 }
 
 .links a {
-    transform: rotate(-10deg);
     margin: 15px;
 }
