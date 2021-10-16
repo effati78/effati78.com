@@ -1,4 +1,4 @@
-# effati78.com
+# main
 
 ## Project setup
 ```
