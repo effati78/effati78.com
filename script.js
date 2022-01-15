@@ -4,7 +4,7 @@ let fname = $('#name'),
 
 const MY_NAME = 'رضا'
 
-if (window.location.href.search('https') == -1) {
+if (window.location.href.search('https://effati78.com') == -1) {
     window.open('https://effati78.com', '_self')
 }
 
