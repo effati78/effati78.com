@@ -4,6 +4,10 @@ let fname = $('#name'),
 
 const MY_NAME = 'رضا'
 
+if (window.location.href.search('https') == -1) {
+    window.open('https://effati78.com', '_self')
+}
+
 $('.final_box').hide(0)
 
 function _(el) {
@@ -20,7 +24,7 @@ function trim(el) {
     return el.value.replace(/^\s+/, '').replace(/\s+$/, '') // Removes spaces after newlines
 }
 
-;(function () {
+; (function () {
     emailjs.init('user_Ck06zRIiUGokUmyrfj39a')
 })()
 
@@ -172,3 +176,32 @@ const options = {
 
 const darkmode = new Darkmode(options)
 window.addEventListener('load', () => darkmode.showWidget())
+
+var i = 0;
+var txt = 'سلام، من رضا عفتی مقدم هستم؛ برای تنظیم آموزش خصوصی برنامه‌نویسی، فرم زیر رو تکمیل کنید.';
+var speed = 60;
+
+function typeWriter() {
+    if (i < txt.length) {
+        document.getElementById("textAnime").innerHTML += txt.charAt(i);
+        i++;
+        setTimeout(typeWriter, speed);
+    } else {
+        setTimeout(() => {
+            $('#name').css('opacity', 1)
+            $('#name').addClass('animate__animated animate__bounceInLeft');
+        }, 60);
+
+        setTimeout(() => {
+            $('#email').css('opacity', 1)
+            $('#email').addClass('animate__animated animate__bounceInRight');
+        }, 180);
+
+        setTimeout(() => {
+            $('#submit').css('opacity', 1)
+            $('#submit').addClass('animate__animated animate__bounceInUp');
+        }, 300);
+    }
+}
+
+typeWriter()
