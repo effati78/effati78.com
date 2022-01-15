@@ -2,78 +2,82 @@
 <html lang="fa" dir="rtl">
 
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <meta name="author" content="effati78@pm.me"/>
-    <meta name="description" content="رضا عفتی مقدم؛ برنامه‌نویس وب و مدرس برنامه‌نویسی"/>
-    <meta name="keywords" content="Reza Effati Moghaddam, رضا عفتی مقدم, مدرس برنامه‌نویسی, برنامه‌نویس وب"/>
-    <meta name="subject" content="تدریس خصوصی برنامه‌نویسی وب"/>
-    <meta name="robots" content="index, follow"/>
-    <meta name="url" content="https://effati78.com/"/>
-    <meta name="theme-color" content="#50a3a2"/>
-    <link rel="shortcut icon" type="image/png" href="./icon.png"/>
-
-    <!– Facebook –>
-    <meta property=”og:type” content=”website”>
-    <meta property=”og:url” content=”https://effati78.com/”>
-    <meta property=”og:title” content=”سایت شخصی رضا عفتی مقدم”>
-    <meta property=”og:description” content=”رضا عفتی مقدم؛ برنامه‌نویس وب و مدرس برنامه‌نویسی”>
-    <meta property=”og:image” content=”./icon.png”>
-
-    <!– Twitter –>
-    <meta property=”twitter:card” content=”تدریس خصوصی برنامه‌نویسی وب”>
-    <meta property=”twitter:url” content=”https://effati78.com/”>
-    <meta property=”twitter:title” content=”سایت شخصی رضا عفتی مقدم”>
-    <meta property=”twitter:description” content=”رضا عفتی مقدم؛ برنامه‌نویس وب و مدرس برنامه‌نویسی”>
-    <meta property=”twitter:image” content=”./icon.png”>
-
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="canonical" href="https://effati78.com/" />
+    <link rel="shortcut icon" type="image/png" href="./icon.png" />
+    <link rel="alternate" href="https://effati78.com/" hreflang="fa-ir" />
+    <meta property="og:locale" content="fa_IR" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="سایت شخصی رضا عفتی مقدم" />
+    <meta property="og:description" content="رضا عفتی مقدم؛ برنامه‌نویس وب و مدرس برنامه‌نویسی" />
+    <meta property="og:url" content="https://effati78.com/" />
+    <meta property="og:site_name" content="رضا عفتی مقدم؛ برنامه‌نویس وب و مدرس برنامه‌نویسی" />
+    <meta property="og:image" content="./icon.png" />
+    <meta property="og:image:width" content="260" />
+    <meta property="og:image:height" content="260" />
+    <meta name="twitter:title" content="سایت شخصی رضا عفتی مقدم" />
+    <meta name="twitter:description" content="رضا عفتی مقدم؛ برنامه‌نویس وب و مدرس برنامه‌نویسی" />
+    <meta name="twitter:image" content="./icon.png" />
+    <meta name="twitter:image:alt" content="رضا عفتی مقدم؛ برنامه‌نویس وب و مدرس برنامه‌نویسی">
+    <meta itemprop="name" content="سایت شخصی رضا عفتی مقدم" />
+    <meta itemprop="description" content="رضا عفتی مقدم؛ برنامه‌نویس وب و مدرس برنامه‌نویسی" />
+    <meta itemprop="image" content="./icon.png" />
+    <meta name="author" content="effati78@pm.me" />
+    <meta name="description" content="رضا عفتی مقدم؛ برنامه‌نویس وب و مدرس برنامه‌نویسی" />
+    <meta name="language" content="Farsi" />
+    <meta name='generator' content='effati78.com' />
+    <meta name="revisit-after" content="1 day" />
+    <meta name="robots" content="index, follow" />
     <title>سایت شخصی رضا عفتی مقدم</title>
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="./style.css" />
 
 </head>
 
 <body>
-<div class="wrapper">
-    <div class="container">
-        <h2 class="basic_text">سلام، من رضا عفتی مقدم هستم؛ برای تنظیم آموزش خصوصی برنامه‌نویسی، فرم
-            زیر رو تکمیل کنید.</h2>
+    <div class="wrapper">
+        <div class="container">
+            <h2 class="basic_text" id="textAnime"></h2>
 
-        <div class="final_box">
-            <h2 class="success_msg">
-                <b></b>      عزیز،
-                <br/>
-                باتشکر از ثبت‌نام شما، جزئیات بیشتر به ایمیل شما ارسال خواهد شد.
-            </h2>
-            <small>www.effati78.com</small>
+            <div class="final_box d-none">
+                <h2 class="success_msg">
+                    <b></b> عزیز،
+                    <br />
+                    باتشکر از ثبت‌نام شما، جزئیات بیشتر به ایمیل شما ارسال خواهد شد.
+                </h2>
+                <small>www.effati78.com</small>
+            </div>
+
+            <form class="form">
+                <input class="opacity-0" type="text" id="name" spellcheck="false" placeholder="نام و نام‌ خانوادگی" />
+                <input class="opacity-0" type="text" id="email" spellcheck="false" placeholder="ایمیل" />
+                <!-- <textarea id="message" spellcheck="false" placeholder="متن پیغام"></textarea> -->
+                <button class="opacity-0" type="submit" id="submit">ارسال</button>
+            </form>
         </div>
 
-        <form class="form">
-            <input type="text" id="name" spellcheck="false" placeholder="نام و نام‌ خانوادگی"/>
-            <input type="text" id="email" spellcheck="false" placeholder="ایمیل"/>
-<!--            <textarea id="message" spellcheck="false" placeholder="متن پیغام"></textarea>-->
-            <button type="submit" id="submit">ارسال</button>
-        </form>
+        <ul class="bg-bubbles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
     </div>
 
-    <ul class="bg-bubbles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-    </ul>
-</div>
-
-<script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
-<script type="text/javascript" src="./script.js"></script>
+    <script type="text/javascript" src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
 
 </body>
 
